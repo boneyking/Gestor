@@ -1,0 +1,5 @@
+suites:
+    main:
+        namespace: Gestor
+        psr4_prefix: Gestor
+        src_path: app
