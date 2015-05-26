@@ -29,3 +29,9 @@ Route::controllers([
 */
 Route::get('/','Admin\AdminController@index');
 Route::get('validacion/login', 'Validacion\ValidacionController@index');
+//Route::get('validacion', 'HomeController@index');
+
+
+Route::controllers([
+	'validacion' => 'HomeController'
+]);

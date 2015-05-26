@@ -10,8 +10,8 @@
 					Iniciar Sesión
 				</div>
 				<div class="panel-body">
-					<!--<form class="form-horizontal" role="form" method="POST" action="{{ url('/validacion/inicio') }}">-->
-					<form class="form-horizontal" role="form">
+					<form class="form-horizontal" role="form" method="POST" action="{{ url('/validacion/inicio') }}">
+					<!--<form class="form-horizontal" role="form">-->
 						<input type="hidden" name="_token" value="{{ csrf_token() }}">
 
 						<div class="form-group">
